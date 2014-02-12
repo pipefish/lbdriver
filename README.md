@@ -43,5 +43,8 @@ Here's the basic usage:
     
     # execute a query
     results = commandChannel.queryPredicate(workspace, "p")
+	
+	commandChannel.close()
+    adminChannel.close()
 
 ```
