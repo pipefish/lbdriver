@@ -33,9 +33,9 @@ class LBDriverAPITest < Test::Unit::TestCase
 
     LBDriver.configuration({
                                     :options => {   "logger"        => Logger.new(STDOUT),
-                                                    "adminhost"     => "glmaster.pipefish.com",
+                                                    "adminhost"     => "localhost",
                                                     "adminport"     => 55181,
-                                                    "commandhost"   => "glmaster.pipefish.com",
+                                                    "commandhost"   => "localhost",
                                                     "commandport"   => 55179}
                                 })
 
