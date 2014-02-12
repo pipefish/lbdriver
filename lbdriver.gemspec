@@ -20,7 +20,7 @@ Gem::Specification.new do |s|
 
   s.add_dependency "rails", "~> 4.0.0.rc2"
   s.add_dependency "celluloid-io"
-  s.add_dependency "protobuf", "~>2.8.8"
+  s.add_dependency "protobuf"
   s.add_dependency "bindata", "~>1.8.0"
   s.add_dependency "connection_pool", "~>1.2.0"
 
